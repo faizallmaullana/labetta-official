@@ -1,0 +1,28 @@
+.tes section{
+    background-color: #a31d1d;
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+    z-index: 999;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    width: 70vw;
+    padding: 4em 2em;
+    border-radius: 1em;
+}
+
+.text p {
+    line-height: 1.6;
+}

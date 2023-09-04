@@ -1,0 +1,39 @@
+.hidden {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.none {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.t-left {
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.t-right {
+    position: relative;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.t-top {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.t-bottom {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translate(0);
+}
