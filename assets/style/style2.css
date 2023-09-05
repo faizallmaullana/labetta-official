@@ -55,3 +55,22 @@ nav {
 .lost {
     display: none;
 }
+
+.data {
+    width: 50vw;
+}
+
+@media screen and (max-width: 720px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile img {
+        width: 80vw;
+        height: 90vw;
+    }
+
+    .data {
+        width: 80vw;
+    }
+}
