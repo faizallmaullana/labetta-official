@@ -26,3 +26,32 @@ nav {
 .text p {
     line-height: 1.6;
 }
+
+.res {
+    opacity: 0;
+}
+
+.profile {
+    opacity: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profile img {
+    margin: 5vh 0;
+    height: 90vh;
+    width: 30vw;
+    border-radius: 1em;
+}
+
+.profile h2 {
+    text-align: left;
+}
+
+.profile .lost {
+    display: block;
+}
+
+.lost {
+    display: none;
+}
