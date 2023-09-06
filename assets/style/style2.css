@@ -18,7 +18,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #eee;
-    width: 100%;
+    width: 100vw;
     padding: 4em 2em;
     border-radius: 1em;
 }
@@ -72,5 +72,9 @@ nav {
 
     .data {
         width: 80vw;
+    }
+
+    .text {
+        width: 100%
     }
 }
